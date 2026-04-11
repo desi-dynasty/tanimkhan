@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanim Khan Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Tanim Khan</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="subtitle">I'd love to hear from you!</p>
+                
+                <div class="contact-container">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <strong>📧 Email:</strong>
+                            <p>tanimkhan49@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>💼 TikTok:</strong>
+                            <p><a href="https://www.tiktok.com/@tanimkhan727">Your TikTok Profile</a></p>
+                        </div>
+                        <div class="info-item">
+                            <strong>🐙 Facebook:</strong>
+                            <p><a href="https://www.facebook.com/tanimthedaddy">Your Facebook Profile</a></p>
+                        </div>
+                        <div class="info-item">
+                            <strong>🐦 Twitter:</strong>
+                            <p><a href="#">@tanimkhan</a></p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Note: This won't work on GitHub Pages without additional setup) -->
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <form action="https://formspree.io/f/maqlgdon" method="POST">
+                        <input type="hidden" name="_subject" value="New message from portfolio">
+                        <input type="hidden" name="_redirect" value="thankyou.html">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tanim Khan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
